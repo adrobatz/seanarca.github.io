@@ -1,0 +1,38 @@
+html {
+    background-image:url(images/wood.jpg);
+}
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#photo {
+    float:left;
+}
+div.container {
+    overflow:hidden;
+}
+img {
+	height:300px;
+	width:auto;
+    margin:10px;
+    float:left;
+    display:block;
+}
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    color:white;
+	font-size:32px;
+}
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    color:white;
+ 	font-size:22px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+	color:white;
+    font-size:14px;
+}
+footer {
+	font-size:12px;
+}
