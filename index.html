@@ -5,25 +5,65 @@
   <title>Sean Arca | Design in Mind </title>
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
   <link rel="stylesheet" type='text/css' href="stylesheet.css"/>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   
 </head>
 <body>
 <!--Title-->
   <header>
-    <h1>Sean Arca</h1>
+    <h1 id="top-title">Sean Arca</h1>
+    <h3 id="slogan">Design in Mind</h3>
+<!--Navigation-->
+    <nav id='top-menu'>
+    <ul class='menu'>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#section">ABOUT ME</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">CONTACT ME</a></li>
+    </ul>
+    </nav>
+    <hr>
     <br>
   </header>
 <!--Photo-->
-<section class="container">
+<section class="about">
      <img src="https://pbs.twimg.com/profile_images/480586308482379776/tlaUqNnP.jpeg" id="me"/>
 <!--About Me-->
-    <h2><b>A LITTLE ABOUT ME.</b></h2>
-    <p>I'm Sean Arca, 26, currently residing in Chicago. HUGE fan of Chicago sports teams. Currently rooting for both team USA and Argentina for the World Cup. Big Lionel Messi fan! When I was 7 years old, I started playing my first video game on a laptop. At the time, I had no idea that technology would be as advanced as it is today plus make me the big nerd that I am! It also could have happened because I was born in the Philippines, and the culture as a child in most asian countries revolve around competative video games. Almost everyone in your school played something, and that itself, builds a community. Friendships were being made, tensions between players rose, and rivals were formed! But who doesn't love a friendly competition? It all ended at the age of 11, when I moved here to Chicago, where I easily made friends, but none of them were as nerdy as me! Not alot of teens played video games on the PC at the time, so I was forced to play with an online community. I then realized that e-sports organizations were being formed over video games and there was potential for income at my young age of 11. I downloaded photoshop and quickly got the hang of it and started designing logos, banners, and custom site templates for these organizations. I wasn't up to par as some of digital media artists were, nor am I today. But ever since then, I have always had an interest for the art of websites and digital media. I definitely regret not pursuing it then. When I became older, I played more sports, which meant less time on the computer, until it was put behind me for awhile. So before I went to college, I didn't think I could make a living out of digital media. Call me blind. I decided to get into the science field where I now have a bachelors of science from UIC (University of Illinois at Chicago). After my undergraduate degree, I started working for an environmental analysis corporation. So after about a year and a half working there, I then realized, that science really wasn't for me. It's gratifying to think you can do something over and over again with little to no mistakes, but being faced with new challenges on a daily basis AND getting it done, sounded a hell of a lot better. So that's me, a student of startup institute, Sean.</p>
+    <h2 class="section">A LITTLE ABOUT ME</h2>
+    <p id="desc">Chicago resident. Sports fanatic. Technology enthusiast and child at heart. </p>
+    <br>
+    <p id="story">I've been a major geek since 1992. Currently a student at StartUp Institute for Product Design. Knowledgeable in HTML, CSS, and JavaScript. Experienced in Graphic Design but not Illustration. I am also an amazing gamer, decent snowboarder, not-too-shabby of a photographer, and a pretty legit dj.</p>
+    <blockquote id="picasso"><p>“Every child is an artist, the problem is staying an artist when you grow up”<br> – Pablo Picasso</p></blockquote>
+    <br>
+    <p id="story2">I have a Bachelors of Science from the University of Illinois at Chicago. I started off my career as an environmental scientist. I enjoyed life, not just on a personal level, but anatomically as well. I've always been fascinated with cellular structures and organisms. This happened during my highschool days in bio class. It wasn't just about the functions, or their necessities to organic life, it was the structural design that really captured my eye. We and everything else around us, are made by design.</p>
+    <br>
+    <p id="story3">After working in the science field for a year and a half, I then realized, that science really was not where I wanted to be. Do not get me wrong, it is most definitely gratifying to repeat a procedure over and over again with little to no mistakes, but being faced with new challenges on a daily basis with the chance to use my creativity? That sounds a hell of a whole lot better.</p>
+    <br>
+    <p class="reach">If you'd like to contact me, feel free to send me a message via the following:     </p>
+<div class="links">        
 
-    <p>PS. I'm a student by day, bedroom DJ at night! Check out my <a href="http://soundcloud.com/djasean">soundcloud</a> if you like EDM! Thanks :)
+<!--LinkedIn-->
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/MemberProfile" data-id="http://www.linkedin.com/in/seanarca" data-format="hover" data-text="LinkedIn" data-related="false"></script>    
+
+<!--Soundcloud Icon-->
+   <iframe id="scicon" allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fdjasean&color=orange_transparent&size=32" style="width: 32px; height: 32px;"></iframe>
+    <a id="sclink" href="http://soundcloud.com/djasean">Soundcloud</a>
+    <br>
+    <p>You can also:</p>
+
+<!--Twitter Icon-->
+    <a href="https://twitter.com/intent/tweet?screen_name=seanarca" class="twitter-mention-button" data-related="seanarca">Tweet to @seanarca</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    
+</div>
+<!--Soundcloud embed-->
+    <iframe id="sc" width="30%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/42432806&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
   </section>
+    <hr>
 <!--Footer-->
   <footer id='site-footer'>
     <h6>©Sean Arca 2014</h6>
