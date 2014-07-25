@@ -1,0 +1,57 @@
+/*custom font*/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: montserrat, Helvetica, Arial, Sans-serif;
+    margin: auto;
+    background-image: url('../img/socialmogulbg.png');
+    background-size: cover;
+}
+p {
+    text-align: justify;
+    margin-right: 46px;
+    margin-bottom: 15px;
+}
+.top {
+    height: 150px;
+}
+.logo {
+    display: inline;
+}
+.logo img {
+    width: 100%;
+    margin-left: -12%;
+}
+.mailchimp {
+    display: inline;
+}
+.mailchimp #mc_embed_signup {
+    background-color: transparent;
+    clear: left;
+    font: 14px Montserrat, Helvetica, Arial, Sans-serif;
+}
+@media (max-width: 768px) {
+    body {
+        background-size: auto;
+    }
+    .logo img {
+        margin-left: -10%;
+        margin-top: -100px;
+    }
+    p {
+        margin-left: 24px;
+        margin-right: 34px;
+    }
+}
+@media (max-width: 1366px) {
+    body {
+        min-height: 100vh;
+    }
+}
