@@ -1,0 +1,48 @@
+/*custom font*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+* {margin: 0; padding: 0;}
+
+html {
+  background-image:url('../img/socialmogulbg.png');
+}
+
+body {
+	font-family: montserrat, arial, verdana;
+    margin:auto;
+}
+p {
+  text-align:justify;
+  margin-right:46px;
+  margin-bottom:15px;
+}
+.top {
+    height:150px;
+}
+.logo {
+    display:inline;
+}
+.logo img{
+  width: 100%;
+  margin-left: -12%;
+}
+.mailchimp {
+    display:inline;
+}
+
+
+
+@media (max-width:768px){
+  .logo img {
+    margin-left: -10%;
+    margin-top:-100px;
+  }
+  
+  p {
+    margin-left:24px;
+    margin-right:34px;
+  }
+  
+}
+    
