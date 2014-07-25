@@ -2,8 +2,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
-/*basic reset*/
-
 * {
     margin: 0;
     padding: 0;
@@ -53,6 +51,5 @@ p {
 @media (max-width: 1366px) {
     body {
         min-height: 100vh;
-         background-image: url('../img/socialmogulbg.png');
     }
 }
