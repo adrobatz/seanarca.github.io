@@ -2,67 +2,90 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
  * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body {
-  font-family: montserrat, Helvetica, Arial, Sans-serif;
-  margin: auto;
-  background-image: url('../img/socialmogulbg.png');
-  background-size: cover;
+    font-family: montserrat, Helvetica, Arial, Sans-serif;
+    margin: auto;
+    background-image: url('../img/socialmogulbg.png');
+    background-size: contain;
 }
 p {
-  text-align: justify;
-  margin-right: 46px;
-  margin-bottom: 15px;
+    text-align: justify;
+    padding-top: 6px;
+    margin-right: 46px;
+    margin-bottom: 20px;
 }
 .top {
-  height: 150px;
+    height: 20px;
 }
 .logo {
-  display: inline;
-}
-.logo img {
-  width: 100%;
-  margin-left: -12%;
+    display: inline;
+    margin-left:16px;
+    margin-top:-10px;
 }
 .phone {
-  margin-left: 50px;
+    margin-left: 10px;
+}
+.steps {
+    margin-top: 30px;
 }
 .mailchimp {
-  display: inline;
+    display: inline;
+    margin-top:50px;
 }
 .mailchimp #mc_embed_signup {
-  background-color: transparent;
-  clear: left;
-  font: 14px Montserrat, Helvetica, Arial, Sans-serif;
+    background-color: transparent;
+    clear: left;
+    font: 14px Montserrat, Helvetica, Arial, Sans-serif;
 }
 @media (max-width: 1366px) {
-  body {
-    min-height: 100vh;
-  }
-  .phone {
-    margin-bottom: 150px;
-  }
+    body {
+        min-height: 100vh;
+        background-size: cover;
+    }
+    .phone {
+        margin-bottom: 150px;
+    }
+    .steps {
+        margin-top: 20px;
+        margin-left: -20px;        
+    }
+    p {
+        text-align: justify;
+        padding-top: 11px;
+        margin-right: 46px;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 768px) {
-  body {
-    background-size: cover;
-  }
-  .logo img {
-    margin-left: 0px;
-    margin-top: -200px;
-  }
-  .phone {
-    margin-left: -5px;
-    padding-top: 200px;
-    margin-bottom: 0px;
-  }
-  .steps {
-    padding-bottom: 250px;
-  }
-  p {
-    margin-left: 24px;
-    margin-right: 34px;
-  }
+    body {
+        background-size: cover;
+    }
+    .logo img {
+        margin-left: 0px;
+        margin-top: -80px;
+    }
+    .phone {
+        margin-left: -5px;
+        padding-top: 100px;
+        margin-bottom: 0px;
+    }
+    .steps {
+        padding-bottom: 250px;
+    }
+    p {
+        margin-left: 24px;
+        margin-right: 34px;
+    }
+}
+@media (max-width: 480px) {
+    .logo img {
+        margin-top: -60px;
+    }
+    .phone {
+        margin-left: -5px;
+        padding-top: 50px;
+    }
 }
